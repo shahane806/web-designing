@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>My city
+</title>
+<style>
+body{
+background:url(./imgs/2.jpg); 
+background-size:cover;
+}
+.imgs_histo img
+{
+ height: 400px;
+	width: 430px; 
+	margin:20px;
+
+
+}
+img{
+border-radius:250px;
+border:3px solid orange;
+}
+.imgs_histo{
+
+
+text-align:center;
+}
+.popular_clgs{
+margin-top:150px;
+
+border:3px solid orange;
+background-color:rgba(0,0,0,0.5);
+color:skyblue;
+
+}
+.histo_places{
+border:3px solid orange;
+background-color:rgba(0,0,0,0.5);
+color:skyblue;
+}
+#info{
+    border:3px solid orange;
+background-color:rgba(0,0,0,0.5);
+color:skyblue;
+}
+</style>
+</head>
+<body>
+<marquee><h2> Welcome to Ahmednagar</h2></marquee>
+<div class = "imgs_histo"><img src ="./imgs/1.jpg" alt = "" onclick="info1()"><img src ="./imgs/3.jpg"alt = "" onclick="info2()"><img src ="./imgs/4.jpg"alt = "" onclick="info3()"></div>
+<div class = "popular_clgs"><h2> Popular college</h2> <ol><li>New arts, commerce and science</li></ol> </div>
+<div class = "histo_places"><h2> Historical places</h2> <ol><li>Chandbibi Mahal</li><li>Vishal Ganpati</li></ol></div>
+<div id="info"></div>
+</body>
+<script>
+    function info1(){
+        document.getElementById('info').innerHTML = "<h2>This is historical place 1</h2>";        
+    }
+    function info2(){
+            document.getElementById('info').innerHTML = "<h2>This is historical place 2</h2>";
+    }
+    function info3(){
+            document.getElementById('info').innerHTML = "<h2>This is historical place 3</h2>";
+    }
+</script>
+</html>

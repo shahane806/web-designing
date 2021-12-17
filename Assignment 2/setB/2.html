@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        color:orangered;
+    }
+    .clgimg{
+        margin:33px;
+        padding:33px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        float:left;
+    }
+    
+    .clgimg img{
+
+        height: 500px;
+        width: 700px;
+        border-radius: 50px;
+    }
+    .clgimg marquee{
+        font-size: x-large;
+        margin: 20px;
+    }
+    .mainhead{
+        margin:33px;
+        font-size: x-large;
+        color:orangered;
+    }
+    body{
+        background:url("./imgs/bg1.jpg");
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="mainhead">
+       <center> <h1>
+            New arts,commerce and science college
+        </h1>
+        <p>Ahmednagar</p>
+    </center>
+    </div>
+    <p>
+        <ol><h1>BCA - Bachloar of computer application</h1></ol>
+    </p>
+    <div id="info"></div>
+
+    <div class="clgimg">
+        <img src="./imgs/1620926615095.jpg" alt="clgimg" onclick = "info()">
+        <marquee>New arts,commerce and science college , Ahmednagar</marquee>
+    </div>
+</body>
+    <script>
+        function info()
+        {
+            document.getElementById('info').innerHTML ="<h2>This is another information</h2>";
+        }
+    </script>
+</html>
