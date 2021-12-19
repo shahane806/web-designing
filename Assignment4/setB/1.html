@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+   
+   h1{
+       margin:33px;
+
+   }
+   tr,td{
+       margin:33px;
+       padding:33px;
+   }
+   textarea{
+    margin: 0px;
+    width: 366px;
+    height: 144px;
+}
+
+   label{
+        font-size: large;
+       margin:3px;
+   }
+   form{
+       text-align: center;
+   }
+   .container{
+       border:5px solid;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:center;
+  
+   }
+   input[type="submit"]{
+    width:55px;
+    height:20px;
+
+   }
+   input[type="reset"]
+{
+    width:55px;
+    height:20px;
+
+
+}
+
+</style>
+<body>
+    
+
+    <div class="container">
+        <h1>FEEDBACK FORM</h1>
+        <form action="post">
+            <table>
+
+            
+            <tr>
+                <td>
+                    <label for="name"><b>Student Name : </b></label>
+                    <input name="name" type="text" placeholder="S.Nageswara Rao"><br>
+                    <label for="email"><b>Student E-mail : </b></label>
+                    <input type="email" name="email" placeholder="sure@yahoo.com">
+
+                </td>
+            </tr>
+         
+            <tr>
+                <td>
+                    <label><b>How do you know this institute</b></label>
+                    <select>
+                        <option value="Through college management">Through college management</option>
+                        <option value="Other">Other</option>
+                    </select>
+        
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   
+                    <label><b>How do you rate this institute</b></label>
+                    <input type="radio" name="rate"><label><b>Poor</b></label>
+                    <input type="radio" name="rate"><label><b>Good</b></label>
+                    <input type="radio" name="rate"><label><b>Very Good</b></label>
+                    <input type="radio" name="rate"><label><b>Excellent</b></label>
+         
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Suggestion for the betterment of faculty and institute</b></label><br>
+                    <textarea name="suggestion" id="suggestion" cols="30" rows="10">Nice to here if given more days for training, it is good</textarea>
+        
+                </td>
+            </tr>
+            <tr>
+                <td>
+            <input type="submit" name="send" value="Send">
+         <input type="reset" name="clear" value="Clear">
+                </td>
+            
+         </tr>
+        </table>
+        </form>
+    
+</div>
+
+</body>
+</html>
