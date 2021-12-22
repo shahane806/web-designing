@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+   
+  
+   tr,td{
+       margin:33px;
+       padding:33px;
+   }
+  
+
+   label{
+        font-size: large;
+       margin:15px;
+   }
+   form{
+       text-align: justify;
+       margin:33px;
+   }
+   
+   input[type="submit"]{
+    width:70px;
+    height:30px;
+    font-size:18px;
+    padding:0px;
+   }
+
+   input{
+    padding:8px;
+
+   }
+
+</style>
+<body>
+   
+
+    
+    <form action="post">
+    <table>
+        <tr>
+            <td>
+                <label>Enter Your Name  </label> 
+                <input type="text" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label >Enter Your Password</label>
+                <input type="password" name="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label >
+                    Which of the followng Operating System have you used?
+                </label>
+                <input type="checkbox" name="OS"><label>LINUX</label>
+                <input type="checkbox" name="OS"><label>Windows XP</label>
+                <input type="checkbox" name="OS"><label>Macintosh 8.0</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Which Operating System do you like the best?</label>
+                <input type="radio" name="operatingsystem"><label>LINUX</label>
+                <input type="radio" name="operatingsystem"><label>Windows XP</label>
+                <input type="radio" name="operatingsystem"><label>Macintosh 8.0</label>
+                
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>You have Completed the Form.</label>
+                <input type="submit" name="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

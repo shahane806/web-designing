@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  margin-left: 169px;
+  font-size: xx-large;
+  color: white;
+  margin-top: 17px;
+  font-family: system-ui;
+}
+
+.chip {
+  border: 2px solid goldenrod;
+  height: 49px;
+  width: 60px;
+  background-color: #ffc73a;
+  border-radius: 5px;
+}
+.container {
+  background: radial-gradient(rgb(28, 28, 77), rgb(15, 15, 31));
+  margin: 33px;
+  padding: 33px;
+  width: 340px;
+  height: 200px;
+  border-radius: 33px;
+}
+
+.tri {
+  border: 1px solid black;
+  height: 26px;
+  width: 29px;
+  background-color: #e0c223;
+  border-radius: 3px;
+  display: inline-block;
+}
+.draw {
+  border: 1px solid black;
+  height: 26px;
+  width: 22px;
+  border-radius: 3px;
+  margin-right: 0px;
+  display: inline-block;
+  background-color: #ccb53b;
+}
+.draw2 {
+  border: 1px solid black;
+  height: 15px;
+  width: 18px;
+  border-radius: 3px;
+  background-color: #ccb53b;
+
+  display: inline-block;
+}
+.tri2 {
+  border: 1px solid black;
+  height: 15px;
+  width: 34px;
+  border-radius: 3px;
+
+  display: inline-block;
+  background-color: gold;
+}
+.creditCardNumber {
+  font-size: xx-large;
+  color: white;
+  margin-top: 17px;
+  font-family: system-ui;
+}
+.validupto {
+  color: white;
+  margin-left: 153px;
+  font-family: system-ui;
+}
+.cashHolder {
+  color: white;
+  font-size: x-large;
+  font-family: system-ui;
+}
+.bestcard {
+  border: 2px solid goldenrod;
+  height: 32px;
+  width: 56px;
+  display: inline;
+  background-color: #eae7de;
+  border-radius: 5px;
+  float:right;
+
+  margin-right: 18px;
+}
+.best,.class{
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    color:#250c94;
+}
