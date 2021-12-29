@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong number or not</title>
+
+</head>
+<body>
+    
+</body>
+<script>
+    var num,rem,result = 0,original;
+    num = prompt("Enter number");
+    original = num;
+    while(num!=0)
+    {
+        rem = num%10;
+        result = result + rem*rem*rem;
+        num= parseInt(num/10);
+    }
+    if(result == original)
+    {
+        console.log("It is Armstrong Number");
+        console.log(original)
+    }
+    else
+    {
+        console.log(original)
+        console.log("It is not Armstrong Number");
+    }
+</script>
+</html>
