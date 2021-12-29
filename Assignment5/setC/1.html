@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Account</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: sans-serif;
+    }
+    .main {
+      background-color: white;
+      height: 639px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 33px;
+      box-shadow: 0px 0px 3px;
+    }
+    input {
+        border-radius: 2px;
+    }
+    .inputs {
+      margin: 21px;
+      height: 33px;
+      display: block;
+      border-radius: 3px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      margin: 12px;
+      box-shadow: 0px 0px 1px;
+      border: 0px solid black;
+    }
+    .main img {
+      height: 74px;
+      width: 146px;
+      margin: 4px;
+      margin-left: 15px;
+    }
+    .main p {
+      font-family: system-ui;
+      font-size: xx-large;
+      margin: 18px;
+      color: darkslategrey;
+    }
+    input[name="UserName"] {
+      width: 375px;
+    }
+    .currentEmail {
+      padding: 4px;
+
+      margin: 28px;
+
+      display: block;
+      margin-top: 73px;
+    }
+    .currentEmail p {
+      font-size: larger;
+      color: dodgerblue;
+      font-family: serif;
+      margin: 32px;
+    }
+    .currentEmail p a {
+      text-decoration: none;
+      color: dodgerblue;
+    }
+    input[type="password"] {
+      box-shadow: 0px 0px 1px;
+      padding: 11px;
+      border: 0px solid;
+      margin: 2px;
+    }
+    #eyeslash {
+      align-items: center;
+      padding: 1px;
+      height: 20px;
+      width: 20px;
+    }
+    .eyesl {
+      display: flex;
+      float: right;
+      margin-right: 10px;
+    }
+
+    .foot a {
+      text-decoration: none;
+      color: dodgerblue;
+      margin: 10px;
+      font-size: larger; /* height: 33px; */ /* margin-top: 1px; */
+      margin: 33px;
+    }
+    input[type="submit"] {
+      padding: 7px;
+      margin: 0px;
+      background-color: dodgerblue;
+      border-radius: 3px;
+      width: 70px;
+      height: 38px;
+      border: 0px solid;
+      /* position: relative; */
+      float: right;
+      box-shadow: 0px 0px 3px;
+      margin-right: 33px;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <img src="./download.png" alt="Google" />
+      <p>Create your Google Account</p>
+      <div class="inputs">
+        <input type="text" name="FirstName" placeholder="First Name" />
+        <input type="text" name="LastName" placeholder="Last Name" />
+        <input type="text" name="UserName" placeholder="User Name" />
+        <p style="font-size: large">You can use letters, Numbers & periods</p>
+      </div>
+      <div class="currentEmail">
+        <p><a href="">my current email address instead</a></p>
+        <input type="password" name="Password" placeholder="Password" />
+        <input type="password" name="confirmPassword" placeholder="Confirm" />
+        <div class="eyesl">
+          <img
+            id="eyeslash"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkuNjA0IDIuNTYybC0zLjM0NiAzLjEzN2MtMS4yNy0uNDI4LTIuNjg2LS42OTktNC4yNDMtLjY5OS03LjU2OSAwLTEyLjAxNSA2LjU1MS0xMi4wMTUgNi41NTFzMS45MjggMi45NTEgNS4xNDYgNS4xMzhsLTIuOTExIDIuOTA5IDEuNDE0IDEuNDE0IDE3LjM3LTE3LjAzNS0xLjQxNS0xLjQxNXptLTYuMDE2IDUuNzc5Yy0zLjI4OC0xLjQ1My02LjY4MSAxLjkwOC01LjI2NSA1LjIwNmwtMS43MjYgMS43MDdjLTEuODE0LTEuMTYtMy4yMjUtMi42NS00LjA2LTMuNjYgMS40OTMtMS42NDggNC44MTctNC41OTQgOS40NzgtNC41OTQuOTI3IDAgMS43OTYuMTE5IDIuNjEuMzE1bC0xLjAzNyAxLjAyNnptLTIuODgzIDcuNDMxbDUuMDktNC45OTNjMS4wMTcgMy4xMTEtMi4wMDMgNi4wNjctNS4wOSA0Ljk5M3ptMTMuMjk1LTQuMjIxcy00LjI1MiA3LjQ0OS0xMS45ODUgNy40NDljLTEuMzc5IDAtMi42NjItLjI5MS0zLjg1MS0uNzM3bDEuNjE0LTEuNTgzYy43MTUuMTkzIDEuNDU4LjMyIDIuMjM3LjMyIDQuNzkxIDAgOC4xMDQtMy41MjcgOS41MDQtNS4zNjQtLjcyOS0uODIyLTEuOTU2LTEuOTktMy41ODctMi45NTJsMS40ODktMS40NmMyLjk4MiAxLjkgNC41NzkgNC4zMjcgNC41NzkgNC4zMjd6Ii8+PC9zdmc+"
+          />
+        </div>
+
+        <p
+          style="color: darkslategrey; font-family: system-ui; font-size: large"
+        >
+          Use 8 or more characters with a mix of letters, numbers & symbols
+        </p>
+      </div>
+      <div class="foot">
+        <a href="">Sign in insteed</a>
+        <input type="submit" value="Next" name="next" />
+      </div>
+    </div>
+  </body>
+</html>
