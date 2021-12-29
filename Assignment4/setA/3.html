@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>split screen</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        color:black;
+    }
+    .splitter {
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        height: 700px;
+        width: auto;
+     margin: 20px;
+    }
+    
+    .left {
+        background-color: blue;
+        width: 50%;
+    }
+    
+   .right {
+    background-color: brown;
+    width: 50%;
+    overflow:scroll;
+}
+</style>
+<body>
+    <div class="splitter">
+        <div class="left">
+            <iframe name="frame" style="height:700px; width:100%;" frameborder="0"></iframe>
+        </div>
+        <div class="right">
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Cars</title>
+            </head>
+            <style>
+                *{
+                    margin:0px;
+                    padding:0px;
+                    color:black;
+                }
+                ul{
+                    list-style-type: none;
+                    background-color: rgb(233, 233, 188);
+            
+                }
+                a{
+                    text-decoration: none;
+            
+                }
+                #companies{
+                    align-items: center;
+                    justify-content: center;  
+                    text-align: center;
+                    font-size: x-large;
+                    background-color: beige;
+            
+                }
+                #bmwmodels{
+                    display:block;
+                    text-align: center;
+                    margin:33px;
+                    background:url("/webdesign/Assignment3/setA/cars/imgs/cq5dam.resized.img.1680.large.time1567581644548.jpg");
+                    background-size: cover;
+                    height: 500px;
+            
+                }
+                
+                #bmwmodels ul li{
+                    display:inline-block;
+                    margin:33px;
+                    align-items: center;
+                    justify-content: center;
+            
+                }
+                #hondamodels ul li{
+                    display:inline-block;
+                    margin:33px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #hondamodels{
+                    display:block;
+                    text-align: center;
+                    margin:33px;
+                    background: url("/webdesign/Assignment3/setA/cars/imgs/th.jpg");
+                    background-size: cover;
+                    height:500px;
+                }
+                #hondamodels ul li{
+                    display:inline-block;
+                    margin:33px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #tatamodels{
+                    display:block;
+                    text-align: center;
+                    margin:33px;
+                    background:url("/webdesign/Assignment3/setA/cars/imgs/tiago-thumb-homepg.jpg");
+                    background-size: cover;
+                    height:500px;
+                }
+                #tatamodels ul li{
+                    display:inline-block;
+                    margin:33px;
+                    align-items: center;
+                    justify-content: center;
+                }
+            </style>
+            <body>
+            <div id="companies">
+               
+                <ul>
+                    <h2>Companies</h2>
+                    <li>
+                        <p>BMW</p> 
+            
+                    </li>
+                    <li>
+                        <p>Honda</p>
+                    </li>
+                    <li>
+                       <p> TATA Motors</p>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div id="bmwmodels">
+               
+                <ul>
+                    <h2>BMW Models</h2>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/BMWX3.html" target="frame">BMWX3</a>
+                    </li>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/BMWX4.html" target="frame">BMWX4</a>
+                    </li>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/BMWX5.html" target="frame">BMWX5</a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div id="hondamodels">
+               
+                <ul>
+                    <h2>Honda Models</h2>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/ALTROZ.html" target="frame">ALTROZ</a>
+                    </li>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/JAZZ1.html" target="frame">JAZZ1</a>
+                    </li>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/JAZZ2.html" target="frame">JAZZ2</a>
+                    </li>
+            
+                </ul>
+            </div>
+            <hr>
+            <div id="tatamodels">
+               
+                <ul>
+                    <h2>TATA MODELS</h2>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/TIAGO.html" target="frame">TIAGO</a>
+                    </li>
+                    <li>
+                        <a href="/webdesign/Assignment3/setA/cars/TIGOR.html" target="frame">TIGOR</a>
+                    </li>
+                </ul>
+            </div>
+            
+            </body>
+            
+            </html>
+        </div>
+    </div>
+</body>
+
+</html>
