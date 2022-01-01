@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu driven program</title>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><h2>1.Display</h2></li>
+            <li><h2>2.Sort elements</h2></li>
+            <li><h2>3.Reverse elements</h2></li>
+            <li><h2>4.Search a given element</h2></li>
+            <li><h2>5.Exit</h2></li>
+        </ul>
+    </div>
+    <input type="text" name="text" id="text">
+    <input type="submit" onclick="menuDrivenProgram()">
+    <div id="ans"></div>
+</body>
+<script>
+    
+    function menuDrivenProgram()
+    {
+        var num;
+        let arr = [1,3,4,2,5];
+        
+            num = document.getElementById('text').value;
+            if(num == 1)
+            {
+                var len= arr.length;
+                var i;
+               
+                for(i = 0; i < len; i++)
+                {
+                   document.getElementById('ans').innerHTML = arr.join(' ');
+                }
+            
+            }
+            else if(num == 2)
+            {
+                arr.sort();
+                var len= arr.length;
+                var i;
+             
+                for(i = 0; i < len; i++)
+                {
+                    document.getElementById('ans').innerHTML = arr.join(' ');
+
+                }
+            }
+            else if(num == 3)
+            {
+                arr.reverse();
+                var len= arr.length;
+                var i;
+              
+                for(i = 0; i < len; i++)
+                {
+                    document.getElementById('ans').innerHTML = arr.join(' ');
+
+                }
+            }
+            else if(num == 4)
+            {
+                var temp = prompt("Enter number");
+                var len= arr.length;
+                var i;
+              
+                for(i = 0; i < len; i++)
+                {
+                  if(temp == arr[i])
+                  {
+                    document.getElementById('ans').innerHTML = arr.join(' ');
+
+                      break;
+
+                  }
+                }
+
+                
+            }
+            else if(num == 5)
+            {
+              console.log("exit");
+            }
+        
+    }
+    
+</script>
+</html>

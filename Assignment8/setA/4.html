@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number to Word</title>
+  </head>
+  <body></body>
+  <script>
+    var x = prompt("enter number0");
+    var i,a,b = 1;
+    var arr = [];
+    for(i= 0;x!=0;i++)
+    {
+      a = x%10;
+      arr[i]=a;
+      x = parseInt(x/10);
+      b++;
+    }
+    arr.reverse();
+    for(i = 0;i<b;i++)
+    {
+      if(arr[i] == 0)
+      {
+       document.write("zero");
+      }
+      if(arr[i] == 1)
+      {
+        document.write("one");
+      }
+      if(arr[i] == 2)
+      {
+        document.write("two");
+      }
+      if(arr[i] == 3)
+      {
+        document.write("three");
+      }
+      if(arr[i] == 4)
+      {
+        document.write("four");
+      }
+      if(arr[i] == 5)
+      {
+        document.write("five");
+      }
+      if(arr[i] == 6)
+      {
+          document.write("six");
+      }
+      if(arr[i] == 7)
+      {
+        document.write("seven");
+      }
+      if(arr[i] == 8)
+      {
+        document.write("eight");
+      }
+      if(arr[i] == 9)
+      {
+        document.write("nine");
+      }
+      
+      
+    }
+  </script>
+</html>

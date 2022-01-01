@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menudrivenprogramm  </title>
+</head>
+<body>
+    <h3>Menu driven program to find square root , power and absolute value</h3>
+
+    <div id="menu">
+        <ul>
+            <li><h2>1.square root</h2></li>
+            <li><h2>2.power</h2></li>
+            <li><h2>3.absolute value</h2></li>
+            
+        </ul>
+    </div>
+    <input type="text" name="text" id="text">
+    <input type="submit" onclick="menuDrivenProgram()">
+    <div id="ans"></div>
+</body>
+<script>
+    function menuDrivenProgram()
+    {
+        var num;
+        
+            num = document.getElementById('text').value;
+            if(num == 1)
+            {
+                var len = prompt("Enter number");
+                var root = len;
+                root = Math.sqrt(len);
+                document.getElementById('ans').innerHTML=""+root+" is the square root of "+len;
+               
+            
+            }
+            else if(num == 2)
+            {
+                var unumber = prompt("Enter number");
+                var upower = prompt("Enter power");
+                var ans = Math.pow(unumber,upower);
+                document.getElementById('ans').innerHTML =unumber+'<sup>'+upower+'</sup>'+'='+ans;
+               
+            }
+            else if(num == 3)
+            {
+                var unumber = prompt("Enter number");
+                var temp = Math.abs(unumber);
+                document.getElementById('ans').innerHTML = 'The absolute value of the '+unumber +'is '+temp;
+            }
+           
+
+                
+            
+            
+        
+    }
+</script>
+</html>

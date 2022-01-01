@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.html</title>
+</head>
+<body>
+    
+</body>
+<script>
+   let keyword = ["keyword"];
+   var i;
+   var chances = 3;
+   var ukey = prompt("Enter keyword");
+    for(i = 0;i<chances;i++)
+    {
+        if(ukey==keyword)
+        {
+            document.write(ukey + "matched");
+            break;
+        }
+        else
+        {
+            
+            chances--;
+           alert(chances + " Chances remaining");
+           ukey = prompt("Enter keyword");
+        }
+    }
+
+</script>
+</html>

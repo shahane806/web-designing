@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stack in js</title>
+</head>
+<body>
+    <h3>Stack</h3>
+
+    <div id="menu">
+        <ul>
+            <li><h2>1.Push the element in stack</h2></li>
+            <li><h2>2.Pop the element from stack</h2></li>
+            <li><h2>3.Display the stack</h2></li>
+            <li><h2>4.Insert an element inqueue</h2></li>
+            <li><h2>5.Delete an element from queue</h2></li>
+            <li><h2>6.Display the contents of queue</h2></li>
+          
+
+
+        </ul>
+    </div>
+    <input type="text" name="text" id="text">
+    <input type="submit" onclick="stack()">
+    <div id="ans"></div>
+</body>
+<script>
+   
+
+    var stack1 = [];
+    var to1 = -1;
+    var queue = [];
+    var front = -1;
+    var rare = -1;
+
+    function stack()
+    {
+        var num;
+        
+            num = document.getElementById('text').value;
+            if(num == 1)
+            {
+               var element = prompt("Enter element in the stack");
+                ++to1;
+                stack1[to1] = element;
+                
+            }
+            else if(num == 2)
+            {
+               to1--;
+
+            }
+            else if(num == 3)
+            {
+                var temp = to1;
+                while(temp != 0)
+                {
+                    console.log(stack1[temp]);
+                    temp--;
+                }
+            }
+            else if(num == 4)
+            {
+
+                if(front == -1 && rare == -1)
+                {
+                    front++;
+                    rare++;
+                    var element = prompt("Enter element in the stack");
+                    queue[rare] = element;
+                }
+                else
+                {
+                    rare++;
+                     var element = prompt("Enter element in the stack");
+                    queue[rare] = element;
+
+                }
+
+            }
+            else if(num == 5)
+            {
+                if(front == -1 && rare == -1)
+                {
+                    
+                    console.log("underflow");
+                }
+                else
+                {
+                    rare--;
+                }
+            }
+            else if(num == 6)
+            {
+                var temp = front;
+                var i;
+                for(i = front; i<= rare; i++)
+                {
+                    console.log(queue[temp]);
+                }
+            }
+           
+
+                
+            
+            
+        
+    }
+</script>
+</html>
