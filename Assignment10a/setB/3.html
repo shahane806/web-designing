@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    body{
+        background-color: red;
+    }
+    .block{
+        height:500px;
+        width:400px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top:20%;
+        border:3px solid rgb(202, 214, 33);
+        border-radius: 5px;
+    }
+    .screen{
+        height:80px;
+        color:black;
+        background-color: rgb(221, 190, 190);
+        margin-top: 2px;
+        border:1px solid rgb(22, 20, 20);
+    }
+    .numpad{
+        height:420px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: yellow;
+        align-items: center;
+    
+    }
+    .numpad div{
+        
+      display: flex;
+      flex-direction: column;
+      margin:auto;
+     
+    }
+    .nums{
+        background-color: aqua;
+        height:50px;
+        width:50px;
+        align-items: center;
+        padding:15px;
+    }
+    input[type="button"]
+    {
+        padding:29px;
+        font-size: large;
+        font-family: sans-serif;
+
+    }
+    input[type="button"]:hover{
+        background-color: grey;
+    }
+</style>
+<body>
+    <div class="block">
+        <div class="screen" id="screen1">
+
+        </div>
+        <div class="numpad">
+         <input type="button" value = '0' name = "btn0" id="0" onclick="th(id)">
+         <input type="button" value = '1' name = "btn1" id="1" onclick="th(id)">
+         <input type="button" value = '2' name = "btn2" id="2" onclick="th(id)">
+         <input type="button" value = '3' name = "btn3" id="3" onclick="th(id)">
+         <input type="button" value = '4' name = "btn4" id="4" onclick="th(id)">
+         <input type="button" value = '5' name = "btn5" id="5" onclick="th(id)">
+         <input type="button" value = '6' name = "btn6" id="6" onclick="th(id)">
+         <input type="button" value = '7' name = "btn7" id="7" onclick="th(id)">
+         <input type="button" value = '8' name = "btn8" id="8" onclick="th(id)">
+         <input type="button" value = '9' name = "btn9" id="9" onclick="th(id)">
+         <input type="button" value = '+' name = "btn+" id="+" onclick="th(id)">
+         <input type="button" value = '-' name = "btn-" id="-" onclick="th(id)">
+         <input type="button" value = '*' name = "btn*" id="*" onclick="th(id)">
+         <input type="button" value = '/' name = "btn/" id="/" onclick="th(id)">
+         <input type="button" value = '=' name = "btn=" id="=" onclick="th(id)">
+        </div>
+    </div>
+</body>
+<script>
+  
+
+</script>
+</html>
