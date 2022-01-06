@@ -13,7 +13,7 @@
 
     }
     body{
-        background-color: red;
+        background-color: grey;
     }
     .block{
         height:500px;
@@ -32,6 +32,8 @@
         background-color: rgb(221, 190, 190);
         margin-top: 2px;
         border:1px solid rgb(22, 20, 20);
+		font-size:27px;
+		font-family:system-ui;
     }
     .numpad{
         height:420px;
@@ -91,7 +93,27 @@
     </div>
 </body>
 <script>
-  
-
+var arr = [];
+	var num = [''];
+  function th(id)
+  {
+	
+    if(id == '=')
+	{
+		  
+	    
+		document.getElementById('screen1').innerHTML = ""+eval(num);
+		num = "";
+		arr =[];
+	}
+	else
+	{
+		arr.push(id);
+	
+	num = arr;
+	num = num.join("");
+	document.getElementById('screen1').innerHTML = ""+num;
+	}
+  }	
 </script>
 </html>
