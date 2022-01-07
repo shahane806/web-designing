@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscribe to our mailing list</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .box {
+            font-size: 20px;
+            border: 3px dotted;
+            height: 293px;
+            width: 400px;
+            margin: 33px;
+            padding: 33px;
+        }
+        h3 {
+            font-family: system-ui;
+        }
+        small {
+            float: right;
+            display: block;
+        }
+        label {
+            display: block;
+        }
+        input[type="email"]
+        {
+             padding: 7px;
+            width: 361px;
+        }
+        input[name="name1"]
+        {
+                padding: 7px;
+            width: 361px;
+        }
+        input[name="name2"]
+        {
+            
+            padding: 7px;
+            width: 361px;
+        }
+        .form
+        {
+            margin-top: 33px;
+        }
+        input[type="submit"] {
+            padding: 8px;
+            width: 133px;
+            margin-top: 17px;
+            border: 2px solid;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Subscribe to our mailing list</h3>
+        <small><span style="color:red;">*</span> indicates required</small>
+
+    
+    <div class="form">
+        <form>
+           <label for="email" >Email Address <span style="color:red">* </span></label><input type="email" name="email" required>
+           <label >First Name </label><input type="text" name="name1">
+           <label  >Last Name </label><input type="text" name="name2">
+           <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
