@@ -67,10 +67,12 @@
                 
             
                     <td>
-                        <center><h1>Payslip</h1></center>
-                        <br>
-                        <br>
-
+                        <center><h1>PaySlip</h1></center>
+        
+					<br>
+					<hr>
+					<br>
+					<br>
                         <label for="empName">Name of Employee  :</label>
                         <input style="
                         margin-left: 52px;" type="text" name="name" id="name" required>
@@ -119,9 +121,11 @@
             
                 <td>
                     <center><h1>Employee Salary Details</h1></center>
-                    <br>
-                    <br>
-
+        
+					<br>
+					<hr>
+					<br>
+					<br>
                     <label for="empName">Name of Employee  :</label>
                     <input style="margin-left: 52px;" type="text" name="name" id="calname" readonly>
                 </td>
@@ -159,12 +163,13 @@
             <tr>
                 <td>
                     <label for="tot">Total Salary : </label>
-                    <input type="text" name="tot" id="caltot" readonly>
+                    <input style="margin-left: 103px;" type="text" name="tot" id="caltot" readonly>
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="submit" id="submit" value="Back" onclick="back()">
+					
                 </td>
             </tr>
         </table>
@@ -173,19 +178,26 @@
    
 </body>
 <script>
-    let name1 = document.getElementById('name').value;
+    var name = document.getElementById('name').value;
+	
     let department = document.getElementById('department').value;
+	
     let designation = document.getElementById('designation').value;
     let basicSalary = document.getElementById('basicSalary').value;
     let hra = document.getElementById('hra').value;
     let da = document.getElementById('da').value;
-
+	
     function calcu()
     {
         document.getElementById('paySlip').style.display = "none";
         document.getElementById('calSalary').style.display = "flex";
-       
-
+		document.getElementById('calname').value = document.getElementById('name').value;
+		document.getElementById('caldepartment').value=document.getElementById('department').value;
+		document.getElementById('caldesignation').value=designation = document.getElementById('designation').value;
+		document.getElementById('calbasicSalary').value = basicSalary = document.getElementById('basicSalary').value;
+		document.getElementById('calhra').value=hra = document.getElementById('hra').value;
+		document.getElementById('calda').value=da = document.getElementById('da').value;
+		document.getElementById('caltot').value = parseInt(basicSalary)+parseInt(hra)+parseInt(da);
     }
     function back()
     {
