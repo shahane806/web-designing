@@ -96,7 +96,7 @@ var email = document.getElementById('email').value;
 var conpass = document.getElementById('confirmPassword').value;
 
 var text = email;
-
+let emailreg = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
 if(nm == ""||nm == null)
 {
 	alert("Name not be empty");
@@ -110,7 +110,7 @@ else
 	alert("Email not be empty");
 	
 }
-else if( text.match("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"))
+else if( text.match(emailreg))
 {
     console.log(email);
 }
