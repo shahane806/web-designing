@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+#registrationForm{
+display:flex;
+flex-direction:column;
+width:333px;
+border:3px solid black;
+border-radius:15px;
+
+margin:auto;
+    height: 333px;
+    padding: 1.75rem 1rem;
+
+}
+input[type="submit"] {
+    padding: 3px;
+    margin: 0px;
+    width: 57px;
+    border-radius: 7px;
+	}
+	input[type="reset"] {
+    padding: 3px;
+    margin: 10px;
+    width: 57px;
+    border-radius: 7px;
+	}
+	td{
+	width:33px;
+	margin:3px;
+	}
+	lable{
+	margin:0px;
+	}
+	h1{text-align:center};
+	.table{
+	border:3px solid black;
+	}
+	td{
+	margin:100%;
+	}
+</style>
+
+<body>
+
+    <div id="registrationForm">
+	<h1> Registration form</h1><hr><br>
+    
+            <table class="table">
+                <tr>
+                    <td>
+                        <label >Name :</label> </td><td><input type="text" id="name" name="name">
+                    </td>
+                </tr> <tr>
+                    <td>
+                        <label >email :</label> </td><td><input type="email" id="email" name="email">
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <label >Password:</label> </td><td><input type="password" id="password" name="passwd">
+                    </td>
+                </tr><tr>
+                    <td>
+                        <label >Confirm Password:</label> </td><td><input type="password" id="confirmPassword"name="passwd1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" onclick="thi()">
+                  </td>
+                
+                </tr>
+            </table>
+       
+    </div>
+</body>
+<script>
+function thi()
+{
+
+var nm= document.getElementById('name').value; console.log(nm);
+var pass = document.getElementById('password').value;
+var email = document.getElementById('email').value;
+var conpass = document.getElementById('confirmPassword').value;
+
+var text = email;
+
+if(nm == ""||nm == null)
+{
+	alert("Name not be empty");
+	
+}
+else
+{
+	console.log(name);
+}if(email == ""||email == null)
+{
+	alert("Email not be empty");
+	
+}
+else if( text.match("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"))
+{
+    console.log(email);
+}
+else
+{
+   
+	console.log("invalid email");
+	
+}if(pass == ""||pass == null)
+{
+	alert("pass not be empty");
+	
+}
+else
+{
+	console.log(pass);
+}
+}
+</script>
+</html>
