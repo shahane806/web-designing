@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+</head>
+<style>
+*{
+
+    margin:0px;
+    padding:0px;
+    font-family:system-ui;
+}
+.heading{
+    color:red;
+    text-align: center;
+    margin-top:33px;
+    padding:3px;
+}
+.imgs{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+input[type="email"]
+{
+    padding:3px;
+    width:13rem;
+
+}
+input[type="email"]::placeholder{
+    text-align: center;
+}
+input[type="submit"]
+{
+    padding:3px;
+    background-color: rgb(170, 74, 179);
+    border-radius:3px;
+    width:6rem;
+
+}
+
+.emailadd{
+    display:block;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 10px;
+}
+#thank{
+    display:block;
+    margin:auto;
+    width:15rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    color:red;
+    font-size:large
+}
+
+</style>
+<body>
+    <div class="maincontainer">
+        <div class="heading">
+            <h2>SUBSCRIBE</h2>
+
+        </div>  
+        <div class="imgs">
+            <img src="./img/van.png" alt="subscribeVan">
+            <br>
+            <br>
+            <br>
+           <center> <h3>Subscribe to get the latest <span style="color:red">news & updates</span></h3></center>
+        </div>
+        <div class="emailadd">
+            <input type="email" name="email" id="email" placeholder="Your Email Address">
+            <input type="Submit" value="Subscribe" onclick="subscribe()">
+        </div>
+        <div id="thank"></div>
+    </div>
+</body>
+<script>
+    function subscribe()
+    {
+        document.getElementById('thank').innerHTML ="Thank you for Subscribe";
+    }
+</script>
+</html>

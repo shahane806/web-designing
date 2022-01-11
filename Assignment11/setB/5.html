@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: system-ui;
+    }
+    .container{
+        display:block;
+        margin:auto;
+        width:auto;
+        background-color:aliceblue;
+        padding:13%;
+        font-size: x-large;
+        float:right;
+        padding-top:200px;
+        height:44vh;
+        
+
+    }
+    tr,td{
+        margin:3px;
+        padding:3px;
+
+    }
+    input[type='email'],::placeholder
+    {
+        text-align:center;
+
+    }
+    input[type='email']
+    {
+        padding:12px 64px;
+    }
+    input[type='password']
+    {
+        padding:12px 64px;
+    }
+    input[type='submit']
+    {
+      padding: 11px 42px;
+      width: 16rem;
+      margin: 13px;
+      background-color: #615454;
+      color: beige;
+      border-radius: 4px;
+    }
+    body{
+      background:url("./img/login.png");
+      background-size: 101vh 100vh;
+      background-repeat: no-repeat;
+    }
+    a{
+      text-decoration: none;
+      color: rgb(53, 50, 50);
+    }
+  </style>
+  <body> 
+    <div class="container">
+      <table>
+          <tr>
+              <td>
+                  <b>logo</b>
+              </td>
+          </tr>
+        <tr>
+          <td>
+            <h3>Sign into your account</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Id"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Login" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href=""><small>forget password?</small></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="">Dont have an account? Register here</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href=""><small>Terms of use. Privacy Policy.</small></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script></script>
+</html>

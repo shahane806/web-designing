@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carts</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        font-family: system-ui;
+    }
+    .card{
+        width:auto;
+
+        height:auto;
+        text-align: center;
+        margin:33px;
+        padding:33px;
+        font-size:x-large;
+        padding-top:77px;
+    }
+    .container{
+        width:auto;
+        height:auto;
+        display:grid;
+        grid-template-columns:auto auto auto;
+        background-color:aliceblue
+    }
+    img{
+        height:200px;
+        width:200px;
+    }
+    input[name="AddToCart"]
+    {
+        padding: 10px;
+        width: 10rem;
+        color: white;
+        margin: 15px;
+        background-color: orangered;
+        border-radius:5px;
+    }
+    small{
+        color:deepskyblue;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./img/basket.png" alt="basket">
+            <p>Mini Vegetable Basket -3.5 to 4.5 kg(7M-MINI4)</p>
+            <small>97 Reviews</small>
+            <p>₹270.00</p>
+            <input type="submit" value="Add to Cart" name="AddToCart">
+
+        </div>
+        <div class="card">
+            <img src="./img/basket2.png" alt="basket">
+            <p>Mini Vegetable Basket -3.5 to 4.5 kg(7M-MINI4)</p>
+            <small>97 Reviews</small>
+            <p>₹270.00</p>
+            <input type="submit" value="Add to Cart" name="AddToCart">
+
+        </div>
+        <div class="card">
+            <img src="./img/mega.png" alt="basket">
+            <p>Medius Vegetable Basket -6 to 6.5 kg(7M-MED6)</p>
+            <small>31 Reviews</small>
+            <p>₹379.00</p>
+            <input type="submit" value="Add to Cart" name="AddToCart">
+
+        </div>
+    </div>
+</body>
+<script></script>
+
+</html>

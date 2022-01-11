@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Top 5 Goa Resorts</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: system-ui;
+    }
+    .mainContainer {
+      display: grid;
+      /*border: 2px solid blue;*/
+      height: fit-content;
+      width: auto;
+      margin: 33px;
+      padding: 44px;
+      grid-template-columns: auto auto;
+    }
+    .sidecontainer {
+      width: 50vh;
+    }
+    .reviews {
+      border: 1px solid black;
+      padding: 34px;
+      margin: 0px;
+      display: block;
+      width: fit-content;
+    }
+    .article {
+      border: 1px solid black;
+      height: fit-content;
+      width: auto;
+      display: grid;
+      margin-top: 10vh;
+      grid-template-columns: auto auto auto;
+      padding-top: 55px;
+    }
+    .article img {
+      margin: 34px;
+      padding: 0px;
+      width: 50vh;
+      height: 40vh;
+    }
+    label {
+      margin: 19px;
+    }
+    .info {
+      justify-content: center;
+      align-items: center;
+      display: block;
+      margin: auto;
+    }
+    #this {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 11px;
+    }
+    .revnum {
+      margin-right: 9px;
+      background-color: midnightblue;
+      height: fit-content;
+      padding: 7px;
+      border-radius: 9px;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+  <body>
+    <div class="mainContainer">
+      <div class="sidecontainer">
+        <div class="heading">
+          <h3>Top 5 Goa resorts</h3>
+          <small>Check out our pick of great resorts in Goa</small>
+        </div>
+        <br />
+        <div class="reviews">
+          <h3>Filter by</h3>
+          <hr />
+          <br />
+          <h3>Reviews</h3>
+          <input type="checkbox" name="review" id="superb" onclick="inp()"/><label
+            >Superb 9+</label
+          ><br />
+          <input type="checkbox" name="review" id="verygood" onclick="inp()"/><label
+            >Very Good 8+</label
+          ><br />
+          <input type="checkbox" name="review" id="good" onclick="inp()"/><label>Good 7+</label
+          ><br />
+          <input type="checkbox" name="review" id="pleasant" onclick="inp()"/><label
+            >Pleasant 6+</label
+          ><br />
+        </div>
+      </div>
+      
+
+      <div id="articles">
+      <div class="article">
+        <div class="imgs"><img src="./img/resort1.png" alt="resort1" /></div>
+        <div class="info">
+          <h3>Agonda Serenity Resort</h3>
+          <span class="material-icons md-24">room</span><small>Agonda</small>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptatum odio repellendus ab totam ipsam maxime soluta quis porro
+            quibusdam officia nihil aliquid, repellat suscipit temporibus
+            asperiores molestiae fuga quam.
+          </p>
+          <a href="">Show More</a>
+        </div>
+        <div id="this">
+          <div class="reviews1">
+            <div class="revclas">Superb</div>
+            <div class="revrev">222 reviews</div>
+          </div>
+          <div class="revnum">9.1</div>
+        </div>
+      </div>
+      <div class="article">
+        <div class="imgs"><img src="./img/resort2.png" alt="resort2" /></div>
+        <div class="info">
+          <h3>Agonda Serenity Resort</h3>
+          <span class="material-icons md-24">room</span><small>Agonda</small>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptatum odio repellendus ab totam ipsam maxime soluta quis porro
+            quibusdam officia nihil aliquid, repellat suscipit temporibus
+            asperiores molestiae fuga quam.
+          </p>
+          <a href="">Show More</a>
+        </div>
+        <div id="this">
+          <div class="reviews1">
+            <div class="revclas">Superb</div>
+            <div class="revrev">232 reviews</div>
+          </div>
+          <div class="revnum">9.2</div>
+        </div>
+      </div>
+      <div class="article">
+        <div class="imgs"><img src="./img/resort3.png" alt="resort3" /></div>
+        <div class="info">
+          <h3>Agonda Serenity Resort</h3>
+          <span class="material-icons md-24">room</span><small>Agonda</small>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptatum odio repellendus ab totam ipsam maxime soluta quis porro
+            quibusdam officia nihil aliquid, repellat suscipit temporibus
+            asperiores molestiae fuga quam.
+          </p>
+          <a href="">Show More</a>
+        </div>
+        <div id="this">
+          <div class="reviews1">
+            <div class="revclas">Very Good</div>
+            <div class="revrev">134 reviews</div>
+          </div>
+          <div class="revnum">8.1</div>
+        </div>
+      </div>
+      <div class="article">
+        <div class="imgs"><img src="./img/resort4.png" alt="resort4" /></div>
+        <div class="info">
+          <h3>Agonda Serenity Resort</h3>
+          <span class="material-icons md-24">room</span><small>Agonda</small>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            voluptatum odio repellendus ab totam ipsam maxime soluta quis porro
+            quibusdam officia nihil aliquid, repellat suscipit temporibus
+            asperiores molestiae fuga quam.
+          </p>
+          <a href="">Show More</a>
+        </div>
+        <div id="this">
+          <div class="reviews1">
+            <div class="revclas">Pleasant</div>
+            <div class="revrev">146 reviews</div>
+          </div>
+          <div class="revnum">6.1</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </body>
+
+  <script>
+    
+  </script>
+</html>
