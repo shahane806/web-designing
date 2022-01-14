@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="form.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="userName">Name : </label>
+                        <input type="text" name="userName" id="userName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City :  </label>
+                        <select name="city" id="city">
+                            <option></option>
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Chennai</option>
+                            <option>kolkata</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="birthDate">Birth Date :</label>
+                        <input type="date" name="birthDate" id="birthDate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="occupation">Occupation : </label>
+                        <input type="text" name="occupation" id="occupation">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender :</label>
+                        <select name="gender" id="gender">
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" onclick="validate()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="alert"></div>
+</body>
+<script>
+    function validate()
+    {
+       document.getElementById("submit").value = "Continue";
+    }
+ </script>
+</html>
