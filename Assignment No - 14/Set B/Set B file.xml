@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cricketinfo>
+            <cricket>
+                        <player>abc</player>
+                        <runs>1000</runs>
+                        <wickets>50</wickets>
+                        <noofnotout>10</noofnotout>
+            </cricket>
+
+            <cricket>
+                        <player>def</player>
+                        <runs>100</runs>
+                        <wickets>40</wickets>
+                        <noofnotout>10</noofnotout>
+            </cricket>
+
+            <cricket>
+                        <player>pqr</player>
+                        <runs>1020</runs>
+                        <wickets>60</wickets>
+                        <noofnotout>10</noofnotout>
+            </cricket>
+
+            <cricket>
+                        <player>xyz</player>
+                        <runs>9000</runs>
+                        <wickets>90</wickets>
+                        <noofnotout>40</noofnotout>
+            </cricket>
+
+            <cricket>
+                        <player>lmn</player>
+                        <runs>170</runs>
+                        <wickets>80</wickets>
+                        <noofnotout>8</noofnotout>
+            </cricket>
+</cricketinfo>

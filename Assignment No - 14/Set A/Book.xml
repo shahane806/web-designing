@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ABC_Bookstore>
+    <Technical>
+        <book>
+
+            <Book_PubYear>1920</Book_PubYear>
+            <Book_Title>abc </Book_Title>
+            <Book_Author>pqr</Book_Author>
+
+
+        </book>
+    </Technical>
+    <Cooking>
+        <book>
+            
+            <Book_PubYear>1921</Book_PubYear>
+            <Book_Title>hjk </Book_Title>
+            <Book_Author>lmo</Book_Author>
+
+        </book>
+    </Cooking>
+    <Yoga>
+        <book>
+            
+            <Book_PubYear>2120</Book_PubYear>
+            <Book_Title>cba </Book_Title>
+            <Book_Author>xyz</Book_Author>
+
+        </book>
+    </Yoga>
+</ABC_Bookstore>

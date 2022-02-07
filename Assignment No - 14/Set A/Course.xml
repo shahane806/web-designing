@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<course>
+<computerscience>
+<studentname>samir Thorat </studentname>
+<classname>TYBCA. </classname>
+<percentage>60 </percentage>
+</computerscience>
+
+<computerscience>
+<studentname>sunil kamble </studentname>
+<classname>TYBCA. </classname>
+<percentage>55 </percentage>
+</computerscience>
+<computerscience>
+<studentname>anil kamble </studentname>
+<classname>TYBCA. </classname>
+<percentage>60 </percentage>
+</computerscience>
+
+<computerscience>
+<studentname>asha kamble </studentname>
+<classname>TYBCA. </classname>
+<percentage>65 </percentage>
+</computerscience>
+
+<computerscience>
+<studentname>madhuri </studentname>
+<classname>TYBCA. </classname>
+<percentage>70 </percentage>
+</computerscience>
+</course>

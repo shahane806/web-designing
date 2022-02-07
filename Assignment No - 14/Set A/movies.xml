@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding ="UTF-8" ?>
+
+<Mayanagaricdstore>
+
+            <movie category="classical">
+
+                        
+
+                        <movie_name>Taj Mahal</movie_name>
+
+                        <Releaseyear>1963</Releaseyear>
+
+                        
+
+                    
+
+            </movie>
+
+             <movie category="Action">
+
+                        
+
+                        <movie_name>Spider Man</movie_name>
+
+                        <Releaseyear>2021</Releaseyear>
+
+                        
+
+                    
+
+            </movie>
+
+             <movie category="Horror">
+
+                        
+
+                        <movie_name>Purani Haveli</movie_name>
+
+                        <Releaseyear>1994</Releaseyear>
+
+                        
+
+                    
+
+            </movie>
+
+</Mayanagaricdstore>

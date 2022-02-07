@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CricketTeam>
+<Team country="India">
+<player>sachin</player>
+<runs>100</runs>
+<wicket>2</wicket>
+</Team>
+
+<Team country="austrilia">
+<player>Usman Khawaja</player>
+<runs>98</runs>
+<wicket>3</wicket>
+</Team>
+</CricketTeam>
