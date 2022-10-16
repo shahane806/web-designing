@@ -30,7 +30,7 @@
         }
         input[type="email"]
         {
-             padding: 7px;
+             padding: 8px;
             width: 361px;
         }
         input[name="name1"]
@@ -49,7 +49,7 @@
             margin-top: 33px;
         }
         input[type="submit"] {
-            padding: 8px;
+            padding: 9px;
             width: 133px;
             margin-top: 17px;
             border: 2px solid;
