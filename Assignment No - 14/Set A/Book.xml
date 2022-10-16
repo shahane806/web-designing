@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ABC_Bookstore>
-    <Technical>
+    <technical>
         <book>
 
             <Book_PubYear>1920</Book_PubYear>
@@ -9,7 +9,7 @@
 
 
         </book>
-    </Technical>
+    </technical>
     <Cooking>
         <book>
             
