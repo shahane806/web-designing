@@ -9,7 +9,7 @@
   {
     echo("cookie set $name <br>"); 
   echo "last visit ".date_format($date,"Y-m-d") . "<br>";
-
+  echo "happy hacking";
 
   }
     else
